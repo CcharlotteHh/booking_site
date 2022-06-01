@@ -1,126 +1,150 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-:root{
-    --yellow: hsl(52,84%,57%);
+:root {
+  --yellow: hsl(52, 84%, 57%);
 }
-body{
-    background-color:#ffffff;
-    height: 6600px;
-
-    
+body {
+  background-color: #ffffff;
+  height: 6600px;
 }
 
-#container{
-    height: 100%;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    background-color: hsl(222,58%,12%);
-    
+#container {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: hsl(222, 58%, 12%);
 }
 
-header{
-    width: 100%;
-    max-width: 1280px;
-    height:2%;
-    border: 1px solid white;
+header {
+  width: 100%;
+  max-width: 1280px;
+  height: 2%;
+  border: 1px solid white;
 }
 
-
-.landing-page{
-    color: white;
-    width: 100%;
-    max-width: 1280px;
-    height:8.4%;
-    border: 1px solid white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction: column;
+.landing-page {
+  color: white;
+  width: 100%;
+  max-width: 1280px;
+  height: 8.4%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.find-hotels{
-    width: 100%;
-    max-width: 1280px;
-    height:4%;
-    background-color:var(--yellow);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.find-hotels {
+  width: 100%;
+  max-width: 1280px;
+  height: 4%;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.find-hotels-form{
-    display:flex;
-    flex-direction: row;
+.find-hotels-form {
+  display: flex;
+  flex-direction: row;
 }
 
-.input-box{
-    display:flex;
-    flex-direction: column;
+.input-box {
+  display: flex;
+  flex-direction: column;
 }
 
-.article-1{
-    width: 100%;
-    max-width: 1280px;
-    height:7.4%;
-    background-color: #ffff;
-    display:flex;
+.article-1 {
+  width: 100%;
+  max-width: 1280px;
+  height: 7.4%;
+  background-color: #ffff;
+  display: flex;
 }
 
-.article-1-img{
-    width:50%;    
+.article-1-img {
+  width: 50%;
 }
 
-.article-content{
-    width:50%; 
+.article-content {
+  width: 50%;
 }
 
-.article-1-img img{
-    width:100%; 
-    height:100%;
-    object-fit: cover;
+.article-1-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.our-best{
-    width: 100%;
-    max-width: 1280px;
-    height:8.333%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-    border: 1px solid white;
+.our-best {
+  width: 100%;
+  max-width: 1280px;
+  height: 8.333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+  color: #ffffff;
 }
-.services-list{
-    height: 300px;
-    width:955px;
-    border: 1px solid white;
-    margin-top:55px;
-
-
+.our-best h1{
+    margin-bottom: 55px;
 }
-
-.trusted-since{
-    width: 100%;
-    max-width: 1280px;
-    height:9.24%;
-    display:flex;
-    flex-direction: column;  
-    align-items: center;
-    justify-content: center;
+.our-best-list-container {
+  display: flex;
+  border: 1px solid white;
 }
 
-.card-container{
-    display: flex;
-    flex-direction: row;
+.services-list-left {
+  height: 100%;
+  width: 50%;
+}
+
+.icon-best {
+  margin-right: 40px;
+}
+
+.services-list-right {
+  height: 100%;
+  width: 50%;
+}
+.our-best-icon-and-info {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  height: 75px;
+  align-items: center;
+}
+
+.services-list {
+  height: 300px;
+  width: 955px;
+  border: 1px solid white;
+  margin-top: 55px;
+}
+
+.trusted-since {
+  width: 100%;
+  max-width: 1280px;
+  height: 9.24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
 }
