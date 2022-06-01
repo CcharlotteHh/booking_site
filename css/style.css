@@ -43,7 +43,7 @@ header {
   align-items: center;
   flex-direction: column;
 }
-
+/*find hotels begin*/
 .find-hotels {
   width: 100%;
   max-width: 1280px;
@@ -64,6 +64,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+/*find hotels end*/
 
 .article-1 {
   width: 100%;
@@ -86,7 +87,7 @@ header {
   height: 100%;
   object-fit: cover;
 }
-
+/*our best begin*/
 .our-best {
   width: 100%;
   max-width: 1280px;
@@ -127,6 +128,7 @@ header {
   align-items: center;
 }
 
+/*our best end*/
 .services-list {
   height: 300px;
   width: 955px;
@@ -134,7 +136,9 @@ header {
   margin-top: 55px;
 }
 
+/*trusted since begin*/
 .trusted-since {
+ color: white;
   width: 100%;
   max-width: 1280px;
   height: 9.24%;
@@ -142,9 +146,66 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: ;
 }
 
 .card-container {
   display: flex;
   flex-direction: row;
+}
+
+.card{
+    color: black;
+    height: 330px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.icon{
+    height:100px;
+    width:310px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon i{
+    font-size: 60px;
+
+}
+
+.card-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.price-yellow{
+    width:100%;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.card-list{
+    margin: 80px 0px;
+    margin-bottom: 0 auto;
+
+}
+
+.card-list li{
+    margin-bottom: 7.5px;
+}
+
+.card-list i {
+    color: blue;
 }
