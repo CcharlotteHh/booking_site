@@ -13,7 +13,7 @@ ul {
   --yellow: hsl(52, 84%, 57%);
 }
 body {
-  background-color: #ffffff;
+  background-color: gray;
   height: 6600px;
 }
 
@@ -22,7 +22,7 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  background-color: hsl(222, 58%, 12%);
+
 }
 
 header {
@@ -30,6 +30,7 @@ header {
   max-width: 1280px;
   height: 2%;
   border: 1px solid white;
+  padding: 5px 135px;
 }
 
 .landing-page {
@@ -42,6 +43,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(seaturtle-bg.jpg);
 }
 /*find hotels begin*/
 .find-hotels {
@@ -96,7 +98,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid white;
   color: #ffffff;
 }
 .our-best h1{
@@ -146,7 +147,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: ;
+  
 }
 
 .card-container {
@@ -208,4 +209,11 @@ header {
 
 .card-list i {
     color: blue;
+}
+
+.trusted-surf{
+    height: 8.93%;
+    width: 100%;
+    max-width: 1280px;
+    border: 1px solid white;
 }
