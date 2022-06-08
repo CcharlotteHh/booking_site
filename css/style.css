@@ -25,12 +25,15 @@ body {
 
 }
 
+.first-page {}
+
 header {
   width: 100%;
   max-width: 1280px;
   height: 2%;
   border: 1px solid white;
   padding: 5px 135px;
+  margin:0 auto;
 }
 
 .landing-page {
@@ -55,6 +58,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 .find-hotels-form {
@@ -65,6 +69,16 @@ header {
 .input-box {
   display: flex;
   flex-direction: column;
+  margin-right: 22px;
+}
+.registerbtn{
+  height: 40px;
+  width:176px;
+  background-color:black;
+  color: white;
+  cursor:pointer;
+  border: none;
+  margin-top: 1%;
 }
 /*find hotels end*/
 
@@ -74,6 +88,8 @@ header {
   height: 7.4%;
   background-color: #ffff;
   display: flex;
+  
+  
 }
 
 .article-1-img {
@@ -88,6 +104,45 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.content-container {
+  margin:0 auto;
+   
+ }
+.article-content{
+  height: 420px;
+  width:355px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-bottom: 20px;
+}
+.article-content h2{
+  height: 66px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.article-content p{
+  height:60px;
+  margin-top: 20px;
+}
+
+.article-1-list{
+  height: 165px;
+  margin-top: 60px;
+}
+
+.article-1-list li{
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.article-1-list i{
+ margin-right:  20px;
+ color: hsl(203,89%,53%);
+ 
 }
 /*our best begin*/
 .our-best {

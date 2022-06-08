@@ -23,5 +23,16 @@ width:1020px 80%
 .article-1{
 width:1280px
 height:490px 7.4%
+}
 
+.article-1-img{
+width:640px 50%
+
+}
+
+our-best
+height 550px  8.333
+
+trusted-since{
+height610px 9.24%
 }
