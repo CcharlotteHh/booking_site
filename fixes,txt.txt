@@ -19,3 +19,31 @@ header {
   flex-direction: column;
   background-image: url(seaturtle-bg.jpg);
 }
+
+ <section class="find-hotels">
+          <h2>Find Hotels</h2>
+          <form class="find-hotels-form" action="">
+            <div class="input-box">
+              <label for="where">Where?</label>
+              <input type="text" name="where" placeholder="Location">
+            </div>
+            <div class="input-box">
+                <label for="where">Where?</label>
+                <input type="text" name="where" placeholder="Location">
+              </div>
+              <div class="input-box">
+                <label for="where">Where?</label>
+                <input type="text" name="where" placeholder="Location">
+              </div>
+              <div class="input-box">
+                <label for="where">Where?</label>
+                <input type="text" name="where" placeholder="Location">
+              </div>
+              <div class="input-box">
+                <label for="where">Where?</label>
+                <input type="text" name="where" placeholder="Location">
+              </div>
+
+              <button type="submit" class="registerbtn">Click here</button>
+          </form>
+      </section>
