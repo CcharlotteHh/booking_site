@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  max-width: 1280px;
+  height: 2%;
+  border: 1px solid white;
+  padding: 5px 135px;
+  margin: 0 auto;
+}
+
+.landing-page {
+  color: white;
+  width: 100%;
+  max-width: 1280px;
+  height: 8.4%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(seaturtle-bg.jpg);
+}
